@@ -1,4 +1,4 @@
-package day43_interfaces_iterators;
+package day40_48.day43_interfaces_iterators;
 
 public class C02_Child implements I01_InterfaceBodyOlanMethod{
     @Override

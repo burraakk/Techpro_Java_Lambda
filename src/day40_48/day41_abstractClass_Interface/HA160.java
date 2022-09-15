@@ -1,4 +1,4 @@
-package day41_abstractClass_Interface;
+package day40_48.day41_abstractClass_Interface;
 
 public class HA160 extends FMercedes{
 

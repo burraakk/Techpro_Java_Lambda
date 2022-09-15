@@ -1,4 +1,4 @@
-package day42_abstractClass_interfaces;
+package day40_48.day42_abstractClass_interfaces;
 
 public interface I03_Interfaces {
 

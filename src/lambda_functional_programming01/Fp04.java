@@ -12,8 +12,8 @@ public class Fp04 {
         System.out.println("get7den100eToplam02() = " + get7den100eToplam02());
         System.out.println("get2den11eCarpim() = " + get2den11eCarpim());
         System.out.println("faktoriyelHesapla() = " + faktoriyelHesapla(5));
-        System.out.println(verilenIkiSayiArasindakiCiftSayilarinToplamini(11,5));
-        System.out.println(ikiSayiArasindakiTumSayilarinRakamlariToplami(13,11));
+        System.out.println(verilenIkiSayiArasindakiCiftSayilarinToplamini(11, 5));
+        System.out.println(ikiSayiArasindakiTumSayilarinRakamlariToplami(13, 11));
 
     }
 
@@ -48,11 +48,12 @@ public class Fp04 {
         System.out.println("0'dan buyuk bir deger giriniz.");
         return 0;
     }
+
     //4) Verilen iki sayı arasındaki çift sayıların toplamını bulan bir method oluşturun.
-    public static int verilenIkiSayiArasindakiCiftSayilarinToplamini(int x, int y){
+    public static int verilenIkiSayiArasindakiCiftSayilarinToplamini(int x, int y) {
 
         int z = 0;
-        if (x>y){
+        if (x > y) {
             z = x;
             x = y;
             y = z;
@@ -65,10 +66,10 @@ public class Fp04 {
     //5) Verilen iki sayı arasındaki tüm sayıların rakamlarının toplamını hesaplayan bir method oluşturun.
     //  23 and 32 ==> 2+3  +  2+4  +  2+5  +  2+6  +  2+7  +   2+8  +   2+9  +   3+0  +   3+1  +   3+2 ==> 68
 
-    public static int ikiSayiArasindakiTumSayilarinRakamlariToplami(int x, int y){
+    public static int ikiSayiArasindakiTumSayilarinRakamlariToplami(int x, int y) {
 
         int z = 0;
-        if (x>y){
+        if (x > y) {
             z = x;
             x = y;
             y = z;
